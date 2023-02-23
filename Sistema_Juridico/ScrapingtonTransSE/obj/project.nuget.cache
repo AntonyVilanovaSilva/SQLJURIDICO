@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IGWmdKORFReB9MpXjzVatOJvmvrPVHkMszhyyc5LccKerxYcZS4vNDWysRVePe0JnhZpXdbwwdRWpD4YbAphCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\Sis Juridico\\Sistema_Juridico\\ScrapingtonTransSE\\ScrapingtonTransSE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

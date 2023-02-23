@@ -1,0 +1,17 @@
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\bin\Debug\net6.0\ScrapingtonTransSE.exe
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\bin\Debug\net6.0\ScrapingtonTransSE.deps.json
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\bin\Debug\net6.0\ScrapingtonTransSE.runtimeconfig.json
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\bin\Debug\net6.0\ScrapingtonTransSE.dll
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\bin\Debug\net6.0\ScrapingtonTransSE.pdb
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.csproj.AssemblyReference.cache
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.AssemblyInfoInputs.cache
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.AssemblyInfo.cs
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.csproj.CoreCompileInputs.cache
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.csproj.CopyComplete
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.dll
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\refint\ScrapingtonTransSE.dll
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.pdb
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ScrapingtonTransSE.genruntimeconfig.cache
+C:\Users\android.LABFIES\Documents\GitHub\Sis Juridico\Sistema_Juridico\ScrapingtonTransSE\obj\Debug\net6.0\ref\ScrapingtonTransSE.dll
