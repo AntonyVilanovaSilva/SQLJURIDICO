@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+JGZdbKDPcwADntETItybLGV+QQOMj+RXoh3BJ7/1RxJqbUlLbQn8YMVw35krL6DdhnKxdVbg+2VixmzuQh9dA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\SQLJURIDICO\\AdvocaciaCliente\\AdvocaciaEstado\\AdvocaciaEstado.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
+  "logs": []
+}
