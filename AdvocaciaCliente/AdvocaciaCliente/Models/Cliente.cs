@@ -2,14 +2,14 @@
 {
     public class Cliente
     {
-        public int CLID { get; set; }
-        public int CLINOME { get; set; }
-        public int CLIENDERECO { get; set; }
-        public int CLINUMEROENDERECO { get; set; }
-        public int CIDADE { get; set; }
-        public int ESTADOSIGLA { get; set; }
-        public int CLICPF { get; set; }
-        public int CLICNPJ { get; set; }
+        public string  CLID { get; set; }
+        public string CLINOME { get; set; }
+        public string CLIENDERECO { get; set; }
+        public string CLINUMEROENDERECO { get; set; }
+        public string CIDADE { get; set; }
+        public string ESTADOSIGLA { get; set; }
+        public string CLICPF { get; set; }
+        public string CLICNPJ { get; set; }
 
 
     }

@@ -1,6 +1,8 @@
-﻿namespace AdvocaciaEstado.Models
+﻿using System.Data.SqlClient;
+
+namespace AdvocaciaCliente.Models
 {
-    public class ConexãoBD
+    public class EstadoBDcs
     {
         private static SqlConnection banco;
 
@@ -8,7 +10,7 @@
         {
             if (banco == null)
             {
-                 banco = new SqlConnection(@"Server=.\SENAI2022; Database=BDJURIDICO; User Id =sa; Password=senai.123;");
+                banco = new SqlConnection(@"Server=.\SENAI2022; Database=BDJURIDICO; User Id =sa; Password=senai.123;");
             }
 
             return banco;

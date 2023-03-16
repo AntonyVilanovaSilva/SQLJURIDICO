@@ -15,8 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\AdvocaciaCliente\AdvocaciaCliente
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/Estado/Craete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvXENyYWV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/Estado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/Home/Index.cshtml]

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AdvocaciaEstado.Models.DAL;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AdvocaciaEstado.Controllers
 {
@@ -6,6 +7,8 @@ namespace AdvocaciaEstado.Controllers
     {
         public IActionResult Index()
         {
+            EstadoDAO = new EstadoDAO();
+            ViewBag.listaClientes = dados.getTodosClientes();
             return View();
         }
     }

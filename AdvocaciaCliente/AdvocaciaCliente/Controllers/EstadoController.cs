@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AdvocaciaCliente.Controllers
 {
-    public class ClienteController : Controller
+    public class EstadoController : Controller
     {
         public IActionResult Index()
         {
-            ClienteDAO dados = new ClienteDAO();
+            EstadoDAO dados = new EstadoDAO();
             ViewBag.listaClientes = dados.getTodosClientes();
             return View();
         }
@@ -19,13 +19,13 @@ namespace AdvocaciaCliente.Controllers
         }
         public IActionResult Create(string idnome, string idendereco, string idnumero)
         {
-            Cliente novoCliente = new Cliente();
-            novoCliente.CLINOME = idnome;
-            novoCliente.CLIENDERECO = idendereco;
-            novoCliente.CLINUMEROENDERECO = idnumero;
+            Estado novoEstado = new Estado();
+            novoEstado.ESTADODESCRIÇÃO = idnome;
+            novoEstado.ESTSIGLA = idendereco;
+           
 
-            ClienteDAO dados = new ClienteDAO();
-            bool result = dados.inserirCliente(novoCliente);
+            EstadoDAO dados = new EstadoDAO();
+            bool result = dados.inserirCliente(novocliente);
             if (result)
             {
                 return RedirectToAction("Index");
@@ -36,10 +36,5 @@ namespace AdvocaciaCliente.Controllers
             }
 
         }
-
-
-
     }
-
 }
-    

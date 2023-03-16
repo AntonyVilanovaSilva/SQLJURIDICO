@@ -3,3 +3,49 @@
 *@
 @{
 }
+<div id= "divtitulo">
+    <h1>Lista de Estado</h1>
+</div>
+<div id="divtabela">
+    <table class="table table-striped">
+
+        <thead>
+            <tr>
+
+                <th scope="col">Codigo</th>
+                 <th scope="col">Nome</th>
+                  <th scope="col">Sigla</th>
+                   
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @ViewBag.listaClientes)
+            {
+                <tr>
+                    <td>@item.ESTID</td>
+                    <td>@item.ESTADODESCRIÇÃO</td>
+                    <td>@item.ESTSIGLA</td>
+                </tr>
+            }
+            <tr>
+
+            <td>1</td>
+            <td>Sergipe</td>
+            <td>SE</td>
+
+            </tr>
+
+            <tr>
+
+            <td>2</td>
+            <td>Bahia</td>
+            <td>BA</td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+</div>
