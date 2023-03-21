@@ -2,7 +2,7 @@
 {
     public class Cliente
     {
-        public string  CLID { get; set; }
+        public string  CLIID { get; set; }
         public string CLINOME { get; set; }
         public string CLIENDERECO { get; set; }
         public string CLINUMEROENDERECO { get; set; }

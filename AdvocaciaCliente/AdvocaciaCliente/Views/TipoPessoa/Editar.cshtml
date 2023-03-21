@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form method="post" action="Editar">
+    Código: @ViewBag.pessoa.TIPID
+    
+    <input type="text" value="@ViewBag.pessoa.TIPID" max="100" id="codigo" name="codigo" readonly />
+
+    <br />
+    Descrição:
+    <input type="text" value="@ViewBag.pessoa.TIPDESCRICAO" max="100" id="descricao" name="descricao" />
+    <br />  
+    <button type="submit">Atualizar</button>
+</form>
+<div>
+    <a href="/TipoDePessoa/Index" class="btn btn-primary">Voltar</a>
+</div>

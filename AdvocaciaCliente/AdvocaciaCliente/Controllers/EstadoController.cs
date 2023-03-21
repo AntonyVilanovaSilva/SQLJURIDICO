@@ -17,24 +17,8 @@ namespace AdvocaciaCliente.Controllers
         {
             return View();
         }
-        public IActionResult Create(string idnome, string idendereco, string idnumero)
-        {
-            Estado novoEstado = new Estado();
-            novoEstado.ESTADODESCRIÇÃO = idnome;
-            novoEstado.ESTSIGLA = idendereco;
-           
+       
 
-            EstadoDAO dados = new EstadoDAO();
-            bool result = dados.inserirCliente(novocliente);
-            if (result)
-            {
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View();
-            }
-
-        }
+        
     }
 }
