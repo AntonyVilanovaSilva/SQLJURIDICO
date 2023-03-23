@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\AdvocaciaCliente\AdvocaciaCliente
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/Atleta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRsZXRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/android.LABFIES/Documents/GitHub/SQLJURIDICO/AdvocaciaCliente/AdvocaciaCliente/Views/CategoriaDocumento/CategoriaDocumentoIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhRG9jdW1lbnRvXENhdGVnb3JpYURvY3VtZW50b0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
