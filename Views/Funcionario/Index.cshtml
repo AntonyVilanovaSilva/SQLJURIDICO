@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Lista de Funcionario</h1>
+</div>
+<div id="divFuncionario">
+    <table class="table table-striped">
+
+        <thead>
+            <tr>
+                
+                <th scope="col">Codigo</th>
+                  <th scope="col">Nome</th>
+                   <th scope="col">Data de Entrada</th>
+                    <th scope="col">CodigoDepartamento</th>
+                  
+                  
+                
+            </tr>
+        </thead>
+        <tbody>
+    
+
+            @foreach (var item in @ViewBag.listaFuncionario)
+            {
+                <tr>
+                    <td>@item.FUNID</td>
+                    <td>@item.FUNOME</td>
+                    <td>@item.FUNDATADEENTRADA</td>
+                     <td>@item.FUNCODIGODEPARTAMENTO</td>
+                </tr>
+            }
+            <
+
+        </tbody>
+
+    </table>
+
+
+</>

@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Lista de Serie</h1>
+</div>
+<div id="divSerie">
+    <table class="table table-striped">
+
+        <thead>
+            <tr>
+                
+                <th scope="col">Codigo</th>
+                 <th scope="col">Nome</th>
+                  <th scope="col">Episodio</th>
+                  
+                
+            </tr>
+        </thead>
+        <tbody>
+    
+
+            @foreach (var item in @ViewBag.listaSerie)
+            {
+                <tr>
+                    <td>@item.SERID</td>
+                    <td>@item.SERNOME </td>
+                    <td>@item.SEREPISODIO</td>
+                    
+                </tr>
+            }
+            <
+
+        </tbody>
+
+    </table>
+
+
+</>
