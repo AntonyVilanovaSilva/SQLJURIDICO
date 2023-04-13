@@ -54,3 +54,5 @@ C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\SLNListaDB1\obj\Debug\net5
 C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\SLNListaDB1\obj\Debug\net5.0\SLNListaDB1.pdb
 C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\SLNListaDB1\obj\Debug\net5.0\SLNListaDB1.genruntimeconfig.cache
 C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\SLNListaDB1\obj\Debug\net5.0\ref\SLNListaDB1.dll
+C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\SLNListaDB1\obj\Debug\net5.0\Razor\Views\Sala\Create.cshtml.g.cs
+C:\Users\android.LABFIES\Documents\GitHub\SQLJURIDICO\SLNListaDB1\obj\Debug\net5.0\Razor\Views\Serie\Create.cshtml.g.cs

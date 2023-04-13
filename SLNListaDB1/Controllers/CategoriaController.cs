@@ -7,7 +7,7 @@ namespace SLNListaDB1.Controllers
     {
         public IActionResult Index()
         {
-            ResponsavelDAO dados4 = new ResponsavelDAO();
+            Categoria_RecursoDAO dados4 = new Categoria_RecursoDAO();
             ViewBag.listaCategoria = dados4.getTodosCategorias();
             return View();
         }

@@ -2,7 +2,7 @@
 
 namespace SLNListaDB1.Models.DAL
 {
-    public class ResponsavelBD
+    public class ConexaoBD
     {
         private static SqlConnection banco;
 

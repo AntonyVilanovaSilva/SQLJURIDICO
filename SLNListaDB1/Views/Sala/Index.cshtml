@@ -3,9 +3,13 @@
 *@
 @{
 }
+
 <h1>Lista de Sala</h1>
+
 </div>
+     <a class="btn btn-success" href="/Sala/Create">Novo</a>
 <div id="divSala">
+
     <table class="table table-striped">
 
         <thead>
@@ -18,23 +22,19 @@
                 
             </tr>
         </thead>
-        <tbody>
+<tbody>
     
 
             @foreach (var item in @ViewBag.listaSala)
             {
                 <tr>
                     <td>@item.SALAID</td>
-                    <td>@item.SALADESCRICACAO</td>
+                    <td>@item.SALADESCRICAO</td>
                     <td>@item.SALANUMERO</td>
                     
                 </tr>
             }
-            <
 
-        </tbody>
-
-    </table>
+ </tbody>
 
 
-</>
