@@ -12,10 +12,10 @@ namespace SLNListaDB1.Models.DAL
         {
             conexao = ConexaoBD.getConexao();
         }
-        public List<DepartamentoDAO> getTodosDepartamentos()
+        public List<Departamento> getTodosDepartamentos()
         {
             string sql = "select * from Departamento";
-            var dados6 = (List<DepartamentoDAO>)conexao.Query<DepartamentoDAO>(sql);
+            var dados6 = (List<Departamento>)conexao.Query<Departamento>(sql);
             return dados6;
         }
     }

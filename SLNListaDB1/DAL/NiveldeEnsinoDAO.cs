@@ -12,10 +12,10 @@ namespace SLNListaDB1.Models.DAL
         {
             conexao = ConexaoBD.getConexao();
         }
-        public List<NiveldeEnsinoDAO> getTodosNiveldeEnsino()
+        public List<NiveldeEnsino> getTodosNiveldeEnsino()
         {
             string sql = "select * from NiveldeEnsino";
-            var dados7 = (List<NiveldeEnsinoDAO>)conexao.Query<NiveldeEnsinoDAO>(sql);
+            var dados7 = (List<NiveldeEnsino>)conexao.Query<NiveldeEnsino>(sql);
             return dados7;
         }
     }
