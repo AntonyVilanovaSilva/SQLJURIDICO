@@ -12,17 +12,17 @@ namespace SLNListaDB1.Models.DAL
         {
             conexao = ConexaoBD.getConexao();
         }
-        public List<SerieDAO> getTodosSerie()
+        public List<Serie> getTodosSerie()
         {
             string sql = "select * from Serie";
-            var dados7 = (List<SerieDAO>)conexao.Query<SerieDAO>(sql);
+            var dados7 = (List<Serie>)conexao.Query<Serie>(sql);
             return dados7;
         }
         public void insertSerie(Serie pserie)
         {
             string query = "insert Serie (SERNOME, SEREPISODIO) values (@SERNOME, @SEREPISODIO)";
 
-            int qtdInserida = conexao.Execute(query, pserie);
+            var qtdInserida = conexao.Execute(query, pserie);
 
         }
     }

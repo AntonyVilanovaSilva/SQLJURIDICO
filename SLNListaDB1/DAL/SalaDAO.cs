@@ -12,11 +12,11 @@ namespace SLNListaDB1.Models.DAL
         {
             conexao = ConexaoBD.getConexao();
         }
-        public List<SalaDAO> getTodosSalas()
+        public List<Sala> getTodosSalas()
         {
             string sql = "select * from Sala";
-            var dados3 = (List<SalaDAO>)conexao.Query<SalaDAO>(sql);
-            return dados3;
+            var dados = (List<Sala>)conexao.Query<Sala>(sql);
+            return dados;
         }
         public void insertSala(Sala psala)
         {
