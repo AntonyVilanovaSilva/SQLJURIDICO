@@ -25,5 +25,12 @@ namespace SLNListaDB1.Models.DAL
             int qtdInserida = conexao.Execute(query, psala);
 
         }
+        public void updateSala(Sala psala)
+        {
+            string query = "update sala set SALADESCRICAO=@SALADESCRICAO, SALANUMERO=@SALANUMERO where SALID=@SALAID";
+
+            int qtdAtualizada = conexao.Execute(query, psala);
+
+        }
     }
 }

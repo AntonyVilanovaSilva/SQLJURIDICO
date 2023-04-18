@@ -19,5 +19,19 @@ namespace SLNListaDB1.Models.DAL
             var dados4 = (List<CategoriaRecurso>)conexao.Query<CategoriaRecurso>(sql);
             return dados4;
         }
+        public void insertCategoriaRecurso(CategoriaRecurso pcategoriarecurso)
+        {
+            string query = "insert CategoriaRecurso(CATDESCRICAO ,CATNOME) values (@CATDESCRICAO , @CATNOME)";
+
+            int qtdInserida = conexao.Execute(query, pcategoriarecurso);
+
+        }
+        public void updateCategoriaRecurso(CategoriaRecurso pcategoriarecurso)
+        {
+            string query = "update CategoriaRecurso set CATDESCRICAO=@CATDESCRICAO, CATNOME=@CATNOME where CATID =@CATID ";
+
+            int qtdAtualizada = conexao.Execute(query, pcategoriarecurso);
+
+        }
     }
 }

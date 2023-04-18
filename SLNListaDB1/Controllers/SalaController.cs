@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SLNListaDB1.Models;
 using SLNListaDB1.Models.DAL;
+using System;
+using System.Linq;
 
 namespace SLNListaDB1.Controllers
 {
@@ -28,6 +30,25 @@ namespace SLNListaDB1.Controllers
             novasala.SALADESCRICAO = descricao;
             novasala.SALANUMERO = numero;
             dados3.insertSala(novasala);
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Atualizar(int id)
+        {
+            ViewBag.salaAtualizar = dados3.getTodosSalas().Where(x => x.SALAID == id).FirstOrDefault();
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Atualizar(string codigo, string descricao, string numero)
+        {
+
+            Sala atualizaSala = new Sala();
+            atualizaSala.SALAID = Convert.ToInt32(codigo);
+            atualizaSala.SALADESCRICAO = descricao;
+            atualizaSala.SALANUMERO = numero;
+            dados3.updateSala(atualizaSala);
 
             return RedirectToAction("Index");
         }

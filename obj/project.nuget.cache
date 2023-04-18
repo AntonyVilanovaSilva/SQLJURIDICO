@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WGbDIsRAVcGj5Gi9v0BhF+2UPjuARXk5u5cRMFEABr29CZ/6orXlyC5OJ70OCegHrkZPgbNoGZVtEhY4k48Fow==",
+  "dgSpecHash": "i4PKWPrraOTL9MFKuTVZcPXlBJ2Or+HnOXE8/iLpYAhkgKjIfKQef6Sd565RQfgBbeiQ6aS67s4jbp7Zb22Pag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\SQLJURIDICO\\SLNListaDB1\\SLNListaDB1.csproj",
+  "projectFilePath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\SQLJURIDICO\\SLNListaDB1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\android.LABFIES\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\android.LABFIES\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

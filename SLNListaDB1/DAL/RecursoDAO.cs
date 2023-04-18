@@ -18,5 +18,19 @@ namespace SLNListaDB1.Models.DAL
             var dados5 = (List<Recurso>)conexao.Query<Recurso>(sql);
             return dados5;
         }
+        public void insertRecurso(Recurso precurso)
+        {
+            string query = "insert Recurso (RECDESCRICAO, RECQUANTIDADE, RECCODIGOCATEGORIA ) values (@RECDESCRICAO, @RECQUANTIDADE,@RECCODIGOCATEGORIA)";
+
+            var qtdInserida = conexao.Execute(query, precurso);
+
+        }
+        public void updateRecurso(Recurso precurso)
+        {
+            string query = "update recurso set RECDESCRICAO=@RECDESCRICAO,RECQUANTIDADE=@RECQUANTIDADE, RECCODIGOCATEGORIA=@RECCODIGOCATEGORIA where RECID=@RECID";
+
+            int qtdAtualizada = conexao.Execute(query, precurso);
+
+        }
     }
 }

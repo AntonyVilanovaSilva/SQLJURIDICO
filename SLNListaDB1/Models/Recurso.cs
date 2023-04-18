@@ -2,7 +2,7 @@
 {
     public class Recurso
     {
-        public string RECID { get; set; }
+        public int RECID { get; set; }
         public string RECDESCRICAO { get; set; }
         public string RECQUANTIDADE { get; set; }
         public string RECCODIGOCATEGORIA { get; set; }

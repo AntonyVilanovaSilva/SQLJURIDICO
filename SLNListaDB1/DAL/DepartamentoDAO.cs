@@ -18,5 +18,19 @@ namespace SLNListaDB1.Models.DAL
             var dados6 = (List<Departamento>)conexao.Query<Departamento>(sql);
             return dados6;
         }
+        public void insertDepartamento(Departamento pDepartamento)
+        {
+            string query = "insertFuncionario (DEPNOME,DEPNUMEROFUNCIONARIO) values (@DEPNOME, @DEPNUMEROFUNCIONARIO)";
+
+            var qtdInserida = conexao.Execute(query, pDepartamento);
+
+        }
+        public void updateDepartamento(Departamento pDepartamento)
+        {
+            string query = "update Departamento set DEPNOME=@DEPNOME, DEPNUMEROFUNCIONARIO=@DEPNUMEROFUNCIONARIO where DEPID=@DEPID";
+
+            int qtdAtualizada = conexao.Execute(query, pDepartamento);
+
+        }
     }
 }

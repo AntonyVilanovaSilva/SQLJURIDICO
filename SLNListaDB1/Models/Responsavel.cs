@@ -2,7 +2,7 @@
 {
     public class Responsavel
     {
-      public string RESID { get; set; }
+      public int RESID { get; set; }
      public string RESNOME { get; set; }
      public string RESIDADE { get; set; }
     }

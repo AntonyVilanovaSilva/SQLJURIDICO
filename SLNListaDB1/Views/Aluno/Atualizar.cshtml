@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Atualizar Cadastro Aluno</h1>
+
+<form method="post" action="create">
+
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.AlunoAtualizar.ALUID" name="codigo" readonly>
+    </div>
+
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" value="@ViewBag.AlunoAtualizar.ALUNOME" name="nome">
+    </div>
+
+    <div class="form-group">
+        <label for="nome">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenome" value="@ViewBag.AlunoAtualizar.ALUSOBRENOME" name="sobrenome">
+    </div>
+
+    <div class="form-group">
+
+</form>

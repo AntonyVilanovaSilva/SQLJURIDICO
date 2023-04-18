@@ -21,11 +21,25 @@ namespace SLNListaDB1.Models.DAL
         }
         
   
-        public List<FuncionarioDAO> getTodosFuncionario()
+        public List<Responsavel> getTodosFuncionario()
         {
             string sql = "select * from Funcionario";
-            var dados8 = (List<FuncionarioDAO>)conexao.Query<FuncionarioDAO>(sql);
+            var dados8 = (List<Responsavel>)conexao.Query<Responsavel>(sql);
             return dados8;
+        }
+        public void insertResponsavel(Responsavel presponsavel)
+        {
+            string query = "insertResponsavel (RESNOME , RESIDADE,) values (@RESNOME, @RESIDADE)";
+
+            var qtdInserida = conexao.Execute(query, presponsavel);
+
+        }
+        public void updateResponsavel(Responsavel presponsavel)
+        {
+            string query = "update serie set RESNOME=@RESNOME,RESIDADE=@RESIDADE where RESID=@RESID";
+
+            int qtdAtualizada = conexao.Execute(query, presponsavel);
+
         }
     }
 }

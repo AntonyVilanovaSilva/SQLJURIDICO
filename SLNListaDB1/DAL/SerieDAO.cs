@@ -25,5 +25,12 @@ namespace SLNListaDB1.Models.DAL
             var qtdInserida = conexao.Execute(query, pserie);
 
         }
+        public void updateSerie(Serie pserie)
+        {
+            string query = "update serie set SERNOME=@SERNOME, SEREPISODIO=@SEREPISODIO where SERID=@SERID";
+
+            int qtdAtualizada = conexao.Execute(query, pserie);
+
+        }
     }
 }
