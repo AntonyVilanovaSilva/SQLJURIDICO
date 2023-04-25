@@ -32,5 +32,12 @@ namespace SLNListaDB1.Models.DAL
             int qtdAtualizada = conexao.Execute(query, pDepartamento);
 
         }
+        public void apagarDepartamento(Departamento pDepartamento)
+        {
+            string query = "Delete sala where DEPID=@DEPID";
+
+            int qtdAtualizada = conexao.Execute(query, pDepartamento);
+
+        }
     }
 }

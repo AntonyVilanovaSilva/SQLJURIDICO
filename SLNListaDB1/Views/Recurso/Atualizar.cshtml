@@ -3,3 +3,30 @@
 *@
 @{
 }
+<h1>Atualizar Recurso</h1>
+
+<form  method="post" action="create" >
+  
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.recursoAtualizar.RECID" name="codigo" readonly>
+
+         <div class="form-group">
+        <label for="nome">descricao</label>
+        <input type="text" class="form-control" id="descricao" value="@ViewBag.recursoAtualizar.RECDESCRICAO" name="descricao">
+    </div>
+
+  
+     <div class="form-group">
+        <label for="nome">quantidade</label>
+        <input type="text" class="form-control" id="quantidade" value="@ViewBag.recursoAtualizar.RECQUANTIDADE" name="quantidade">
+    </div>
+
+    <div class="form-group">
+        <label for="nome">categoria</label>
+        <input type="text" class="form-control" id="categoria" value="@ViewBag.recursoAtualizar.RECCODIGOCATEGORIA" name="categoria">
+    </div>
+
+
+
+</form>

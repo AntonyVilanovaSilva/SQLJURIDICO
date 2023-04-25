@@ -33,5 +33,12 @@ namespace SLNListaDB1.Models.DAL
             int qtdAtualizada = conexao.Execute(query, pcategoriarecurso);
 
         }
+        public void apagarCategoriaRecurso(CategoriaRecurso pcategoriarecurso)
+        {
+            string query = "Delete sala where CATID=@CATID";
+
+            int qtdAtualizada = conexao.Execute(query, pcategoriarecurso);
+
+        }
     }
 }

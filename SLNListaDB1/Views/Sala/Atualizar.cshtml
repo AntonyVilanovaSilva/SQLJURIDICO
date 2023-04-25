@@ -3,3 +3,26 @@
 *@
 @{
 }
+<h1>Atualizar Cadastro Sala</h1>
+
+<form  method="post" action="create" >
+  
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.salaAtualizar.SALAID" name="codigo" readonly>
+
+         <div class="form-group">
+        <label for="nome">descricao</label>
+        <input type="text" class="form-control" id="descricao" value="@ViewBag.salaAtualizar.SALADESCRICAO" name="descricao">
+    </div>
+
+  
+     <div class="form-group">
+        <label for="nome">numero</label>
+        <input type="text" class="form-control" id="numero" value="@ViewBag.salaAtualizar.SALANUMERO" name="numero">
+    </div>
+
+
+
+
+</form>

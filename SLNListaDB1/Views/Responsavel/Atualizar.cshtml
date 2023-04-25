@@ -3,3 +3,26 @@
 *@
 @{
 }
+<h1>Atualizar Cadastro Responsavel</h1>
+
+<form  method="post" action="create" >
+  
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.responsavelAtualizar.RESID" name="codigo" readonly>
+
+         <div class="form-group">
+        <label for="nome">nome</label>
+        <input type="text" class="form-control" id="nome" value="@ViewBag.responsavelAtualizar.RESNOME" name="nome">
+    </div>
+
+  
+     <div class="form-group">
+        <label for="nome">idade</label>
+        <input type="text" class="form-control" id="idade" value="@ViewBag.responsavelAtualizar.RESIDADE" name="idade">
+    </div>
+
+
+
+
+</form>

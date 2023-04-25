@@ -52,6 +52,16 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            Sala atualizaSala= new Sala();
+            atualizaSala.SALAID = Convert.ToInt32(id);
+            dados3.apagarSala(atualizaSala);
+
+            return RedirectToAction("Index");
+        }
 
     }
 }

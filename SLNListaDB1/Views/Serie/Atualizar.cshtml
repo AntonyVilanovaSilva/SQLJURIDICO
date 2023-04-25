@@ -3,3 +3,26 @@
 *@
 @{
 }
+<h1>Atualizar Cadastro Serie</h1>
+
+<form  method="post" action="create" >
+  
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.serieAtualizar.SERID" name="codigo" readonly>
+
+         <div class="form-group">
+        <label for="nome">nome</label>
+        <input type="text" class="form-control" id="nome" value="@ViewBag.serieAtualizar.SERNOME" name="nome">
+    </div>
+
+  
+     <div class="form-group">
+        <label for="nome">episodio</label>
+        <input type="text" class="form-control" id="episodio" value="@ViewBag.serieAtualizar.SEREPISODIO" name="episodio">
+    </div>
+
+
+
+
+</form>

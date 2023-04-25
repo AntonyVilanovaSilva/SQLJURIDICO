@@ -49,5 +49,15 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+           NiveldeEnsino atualizaNiveldeEnsino = new NiveldeEnsino();
+            atualizaNiveldeEnsino.NIENID = Convert.ToInt32(id);
+            dados7.apagarNiveldeEnsino(atualizaNiveldeEnsino);
+
+            return RedirectToAction("Index");
+        }
     }
 }

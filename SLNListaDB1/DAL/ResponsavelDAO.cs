@@ -41,5 +41,12 @@ namespace SLNListaDB1.Models.DAL
             int qtdAtualizada = conexao.Execute(query, presponsavel);
 
         }
+        public void apagarResponsavel(Responsavel presponsavel)
+        {
+            string query = "Delete sala where RESID=@RESID";
+
+            int qtdAtualizada = conexao.Execute(query, presponsavel);
+
+        }
     }
 }

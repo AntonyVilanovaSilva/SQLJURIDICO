@@ -48,5 +48,15 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            CategoriaRecurso atualizaCategoriaRecurso = new CategoriaRecurso();
+            atualizaCategoriaRecurso.CATID = Convert.ToInt32(id);
+            dados4.apagarCategoriaRecurso(atualizaCategoriaRecurso);
+
+            return RedirectToAction("Index");
+        }
     }
 }

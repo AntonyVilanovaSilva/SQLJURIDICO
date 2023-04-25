@@ -3,3 +3,29 @@
 *@
 @{
 }
+<h1>Atualizar Funcionario</h1>
+
+<form  method="post" action="create" >
+  
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.FuncionarioAtualizar.FUNID" name="codigo" readonly>
+
+         <div class="form-group">
+        <label for="nome">nome</label>
+        <input type="text" class="form-control" id="nome" value="@ViewBag.FuncionarioAtualizar.FUNOME" name="nome">
+    </div>
+
+  
+     <div class="form-group">
+        <label for="nome">entrada</label>
+        <input type="text" class="form-control" id="entrada" value="@ViewBag.FuncionarioAtualizar.FUNDATADEENTRADA" name="entrada">
+    </div>
+
+     <div class="form-group">
+        <label for="nome">departamento</label>
+        <input type="text" class="form-control" id="departamento" value="@ViewBag.FuncionarioAtualizar.FUNCODIGODEPARTAMENTO" name="departamento">
+    </div>
+
+
+</form>

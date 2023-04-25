@@ -32,5 +32,12 @@ namespace SLNListaDB1.Models.DAL
             int qtdAtualizada = conexao.Execute(query, precurso);
 
         }
+        public void apagarRecurso(Recurso precurso)
+        {
+            string query = "Delete sala where RECID=@RECID";
+
+            int qtdAtualizada = conexao.Execute(query, precurso);
+
+        }
     }
 }

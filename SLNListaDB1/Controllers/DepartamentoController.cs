@@ -49,6 +49,16 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            Departamento atualizaDepartamento = new Departamento();
+            atualizaDepartamento.DEPID = Convert.ToInt32(id);
+            dados6.apagarDepartamento(atualizaDepartamento);
+
+            return RedirectToAction("Index");
+        }
 
     }
 }

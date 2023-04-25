@@ -50,5 +50,15 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            Recurso atualizaRecurso = new Recurso();
+            atualizaRecurso.RECID = Convert.ToInt32(id);
+            dados5.apagarRecurso(atualizaRecurso);
+
+            return RedirectToAction("Index");
+        }
     }
 }

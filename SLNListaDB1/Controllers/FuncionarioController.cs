@@ -50,5 +50,15 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            Funcionario atualizaFuncionario = new Funcionario();
+            atualizaFuncionario.FUNID = Convert.ToInt32(id);
+            dados8.apagarFuncionario(atualizaFuncionario);
+
+            return RedirectToAction("Index");
+        }
     }
 }

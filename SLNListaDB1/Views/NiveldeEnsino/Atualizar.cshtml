@@ -3,3 +3,26 @@
 *@
 @{
 }
+<h1>Atualizar NiveldeEnsino</h1>
+
+<form  method="post" action="create" >
+  
+    <div class="form-group">
+        <label for="codigo">Código</label>
+        <input type="text" class="form-control" id="codigo" value="@ViewBag.NiveldeEnsinoAtualizar.NIENID" name="codigo" readonly>
+
+         <div class="form-group">
+        <label for="nome">nome</label>
+        <input type="text" class="form-control" id="nome" value="@ViewBag.NiveldeEnsinoAtualizar.NIENOME" name="nome">
+    </div>
+
+  
+     <div class="form-group">
+        <label for="nome">descricao</label>
+        <input type="text" class="form-control" id="descricao" value="@ViewBag.NiveldeEnsinoAtualizar.NIENDESCRICAO" name="descricao">
+    </div>
+
+
+
+
+</form>

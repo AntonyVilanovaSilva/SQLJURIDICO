@@ -32,5 +32,12 @@ namespace SLNListaDB1.Models.DAL
             int qtdAtualizada = conexao.Execute(query, pniveldeensino);
 
         }
+        public void apagarNiveldeEnsino(NiveldeEnsino pniveldeensino)
+        {
+            string query = "Delete sala where NIENID=@NIENID";
+
+            int qtdAtualizada = conexao.Execute(query, pniveldeensino);
+
+        }
     }
 }

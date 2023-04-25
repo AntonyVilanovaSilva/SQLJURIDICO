@@ -50,5 +50,15 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            Responsavel atualizaResponsavel = new Responsavel();
+            atualizaResponsavel.RESID = Convert.ToInt32(id);
+            dados8.apagarResponsavel(atualizaResponsavel);
+
+            return RedirectToAction("Index");
+        }
     }
 }

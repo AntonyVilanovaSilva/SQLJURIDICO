@@ -52,5 +52,15 @@ namespace SLNListaDB1.Controllers
 
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Apagar(string id)
+        {
+
+            Serie atualizaSerie = new Serie();
+            atualizaSerie.SERID = Convert.ToInt32(id);
+            dados7.apagarSerie(atualizaSerie);
+
+            return RedirectToAction("Index");
+        }
     }
 }
