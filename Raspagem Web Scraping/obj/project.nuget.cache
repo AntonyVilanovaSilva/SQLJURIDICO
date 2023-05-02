@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "RrTHx+zxNLezH2bWtS5nYutSlXAoRJXZ7r41L8Vds6ny8qF/DrRghCc2UKGfGT4W+rHk00ETIt3goMktsQrj6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\android.LABFIES\\Documents\\GitHub\\SQLJURIDICO\\Raspagem Web Scraping\\Raspagem Web Scraping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\android.LABFIES\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
